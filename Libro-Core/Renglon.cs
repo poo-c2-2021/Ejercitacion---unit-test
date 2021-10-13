@@ -13,7 +13,7 @@ namespace Libro_Core
         
         public Renglon()
         {
-            this.Texto = "";
+            this.texto = "";
         }
         /// <summary>
         /// Texto contenido en el renglón.
