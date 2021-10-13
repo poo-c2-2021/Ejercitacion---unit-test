@@ -9,6 +9,8 @@ namespace Libro_Core
     public class Renglon
     {
         private string texto;
+        private bool coloreado;
+        
         public Renglon()
         {
             this.Texto = "";
@@ -34,11 +36,11 @@ namespace Libro_Core
         {
             get
             {
-                return this.Coloreado;
+                return this.coloreado;
             }
             set
             {
-                this.Coloreado = value;
+                this.coloreado = value;
             }
         }
     }
